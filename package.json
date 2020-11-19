@@ -13,16 +13,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/starkblaze01/Hostel-Management.git"
-  },
-  "author": "Mayank Pathela",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/starkblaze01/Hostel-Management/issues"
-  },
-  "homepage": "https://github.com/starkblaze01/Hostel-Management#readme",
   "dependencies": {
     "@reduxjs/toolkit": "^1.4.0",
     "bcryptjs": "^2.4.3",
